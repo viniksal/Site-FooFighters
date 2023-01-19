@@ -1,0 +1,440 @@
+/*onde pertence o projeto 
+funcionalidade 
+solução para desenvolver 
+porqeu usei isso ou aquilo
+buscando MB*/
+
+body    {
+    background-color: #000000;  
+    color: white; 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1, h3, h2   {
+    text-align: center;
+}
+
+#indice  {
+    text-align: left;
+}
+
+.index {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 20vh 80vh 20vh;
+    grid-template-areas: "header header" "main aside" "footer footer";
+}
+
+#index-header{
+    background: rgba(208, 6, 6, 0.844); 
+    grid-area: header;
+}
+
+#index-main{
+    /*background: #000000;*/
+    grid-area: main;
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#index-aside   {
+    background: black;
+    grid-area: aside;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#index-footer   {
+    background: rgba(208, 6, 6, 0.844);;
+    grid-area: footer;
+}
+
+#foto   {
+    display: inline-block;
+    position: right;
+    background-color: #c0c0c0;
+    margin-right: 20px;
+   
+}
+
+.discografia_estudio    {
+    display: grid;
+    grid-template-columns:  4fr;
+    grid-template-rows: 20vh 940vh 20vh;
+    grid-template-areas: "header header" "main aside" "footer footer";
+}
+#disc_estudio-header{
+    background: rgba(208, 6, 6, 0.844); 
+    grid-area: header;
+}
+
+#disc_estudio-main{
+    grid-area: main;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#disc_estudio-aside   {
+    background: black;
+    grid-area: aside;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#disc_estudio-footer   {
+    background: rgba(208, 6, 6, 0.844);;
+    grid-area: footer;
+}
+
+.premiações {
+    display: grid;
+    grid-template-columns: 4fr;
+    grid-template-rows: 20vh 190vh 20vh;
+    grid-template-areas: "header header" "main aside" "footer footer";
+}
+
+#pre-header{
+    background: rgba(208, 6, 6, 0.844); 
+    grid-area: header;
+}
+
+#pre-main{
+    background: rgb(0, 0, 0);
+    grid-area: main;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#pre-aside   {
+    background: black;
+    grid-area: aside;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#pre-footer   {
+    background: rgba(208, 6, 6, 0.844);;
+    grid-area: footer;
+}
+
+.discografia_ao_vivo {
+    display: grid;
+    grid-template-columns: 4fr;
+    grid-template-rows: 20vh 75vh 20vh;
+    grid-template-areas: "header header" "main aside" "footer footer";
+}
+
+#disc_ao_vivo-header{
+    background: rgba(208, 6, 6, 0.844); 
+    grid-area: header;
+}
+
+#disc_ao_vivo-main{
+    background: black;
+    grid-area: main;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#disc_ao_vivo-aside   {
+    background: black;
+    grid-area: aside;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#disc_ao_vivo-footer   {
+    background: rgba(208, 6, 6, 0.844);;
+    grid-area: footer;
+}
+
+.discografia_coletanias {
+    display: grid;
+    grid-template-columns: 4fr;
+    grid-template-rows: 20vh 200vh 20vh;
+    grid-template-areas: "header header" "main main" "footer footer";
+}
+
+#disc_coletanias-header{
+    background: rgba(208, 6, 6, 0.844); 
+    grid-area: header;
+}
+
+#disc_coletanias-main{
+    background: black;
+    grid-area: main;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#disc_coletanias-aside   {
+    background: black;
+    grid-area: aside;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#disc_coletanias-footer   {
+    background: rgba(208, 6, 6, 0.844);;
+    grid-area: footer;
+}
+
+.discografia_video {
+    display: grid;
+    grid-template-columns: 4fr;
+    grid-template-rows: 20vh 445vh 20vh;
+    grid-template-areas: "header header" "main main" "footer footer";
+}
+
+#disc_video-header{
+    background: rgba(208, 6, 6, 0.844); 
+    grid-area: header;
+}
+
+#disc_video-main{
+    background: rgb(0, 0, 0);
+    grid-area: main;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#disc_video-aside   {
+    background: black;
+    grid-area: aside;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#disc_video-footer   {
+    background: rgba(208, 6, 6, 0.844);;
+    grid-area: footer;
+}
+
+.descriçao {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 20vh 80vh 20vh;
+    grid-template-areas: "header header" "main aside" "footer footer";
+}
+
+#descriçao-header{
+    background: rgba(208, 6, 6, 0.844); 
+    grid-area: header;
+}
+
+#descriçao-main{
+    background: black;
+    grid-area: main;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#descriçao-aside   {
+    background: black;
+    grid-area: aside;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#descriçao-footer   {
+    background: rgba(208, 6, 6, 0.844);;
+    grid-area: footer;
+}
+
+.integrantes {
+    display: grid;
+    grid-template-columns: 4fr;
+    grid-template-rows: 20vh 520vh 20vh;
+    grid-template-areas: "header header" "main aside" "footer footer";
+}
+
+#integrantes-header{
+    background: rgba(208, 6, 6, 0.844); 
+    grid-area: header;
+}
+
+#integrantes-main{
+   /* background: brown;*/
+    grid-area: main;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#integrantes-aside   {
+    background: black;
+    grid-area: aside;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#integrantes-footer   {
+    background: rgba(208, 6, 6, 0.844);;
+    grid-area: footer;
+}
+
+.taylor     {
+    display: grid;
+    grid-template-columns: 4fr;
+    grid-template-rows: 20vh 285vh 20vh;
+    grid-template-areas: "header header" "main main" "footer footer";
+}
+
+#taylor-header{
+    background: rgba(208, 6, 6, 0.844); 
+    grid-area: header;
+}
+
+#taylor-main{
+    grid-area: main;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#taylor-aside   {
+    background: black;
+    grid-area: aside;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#taylor-footer   {
+    background: rgba(208, 6, 6, 0.844);
+    grid-area: footer;
+}
+
+#institucional  {
+    background: #ff7700;
+    display: inline-block;
+    width: 33%;
+}
+
+#contatos   {   
+    background: yellow;
+    display: inline-block;
+    width: 33%;
+}
+
+#r_sociais   {
+    background: blue;
+    display: inline-block;
+    width: 33%;
+
+}
+.menu{
+    list-style:none;
+    border:1px solid #c0c0c0;
+    float: left;
+}
+.menu li{
+    position:relative;
+    float: left;
+    border-right:1px solid #c0c0c0;
+}
+.menu li a  {
+    color: #fff;        
+    text-decoration:none; 
+    padding:5px 10px; 
+    display:block;
+}
+
+.menu li ul li a   {
+    color:#333;        
+    text-decoration:none; 
+    padding:5px 10px; 
+    display:block;
+}
+    
+.menu li a:hover    {
+    background: #333;        
+    color: #fff;
+    -moz-box-shadow:0 3px 10px 0 #CCC;
+    -webkit-box-shadow:0 3px 10px 0 #ccc;              
+    text-shadow:0px 0px 5px #fff;         
+}
+
+.menu li  ul   {
+    position:absolute;
+    top:25px;
+    left:0;
+    background-color:#fff;
+    display:none;
+}
+
+.menu li:hover ul, .menu li.over ul {
+    display:block;
+}
+
+.menu li ul li{
+        border:1px solid #c0c0c0;
+        display:block;
+        width:150px;
+}
+
+a:link   {
+    color: white;
+}
+
+a:visited   {
+    color: gray;
+}
+
+a:hover     {
+    color: aquamarine;
+}
+
+#inte   {
+    display: inline-block;
+    margin-left: 150px;
+    margin-right: 150px;
+    /*box-align: center;*/
+    width: 850px;
+}
+
+table   {
+    /*color:#000000;*/
+    box-shadow: 0px 0px 100px whitesmoke;
+    
+}
+
+#tay    {
+    box-shadow: 0px 0px 100px rgb(255, 255, 255);
+}
+
+#roda   {
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    width: 1461px;
+    color: rgb(160, 160, 160);
+}
